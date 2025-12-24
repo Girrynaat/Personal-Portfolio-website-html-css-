@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #1e3a8a;
+            color: white;
+        }
+
+        .hero img {
+            width: 200px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        .about {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .skills-title {
+            text-align: center;
+            font-size: 22px;
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background-color: #2563eb;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+        }
+
+        .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 30px;
+    max-width: 900px;
+}
+
+.contact > div {
+    flex: 1;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+        button {
+            padding: 10px;
+            background-color: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e3a8a;
+            color: white;
+        }
+        .footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+        @media (max-width: 768px) {
+            .hero,
+            .contact {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div>
+            <h3>Hi, I'm Girrynaat</h3>
+            <p>B.Tech IT Student</p>
+            <p>Aspiring Web Developer</p>
+        </div>
+        <div>
+            <img src="download.png" alt="Profile Image">
+        </div>
+    </div>
+
+    <div class="about">
+        <h4>About Me</h4>
+        <p>I am a 2nd year B.Tech IT student at Bannari Amman Institute of Technology.</p>
+        <h5>Career Objective:</h5>
+        <p>
+            To build a strong career in Information Technology by continuously learning
+            and applying innovative ideas to contribute effectively towards organizational
+            goals and personal growth.
+        </p>
+    </div>
+
+    <div class="skills-title">
+        <h3>My Skills</h3>
+    </div>
+
+    <div class="skills">
+        <div class="skill-box">C</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Networking</div>
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+    </div>
+
+    <div class="contact">
+        <div>
+            <h3>Contact Me</h3>
+            <p>Email: girrynaat02@gmail.com</p>
+            <p>Phone: 7904362277</p>
+            <p>Location: Tirunelveli</p>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Message">
+            <button>Send Message</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/girry-naat-s-5870b2326/"><img src="linkedinimage.webp" alt="LinkedIn" ></a>
+        <a href=""><img src="githubimage.png" alt="GitHub"></a>
+        <p>© 2025 Girrynaat</p>
+    </div>
+
+</body>
+</html>
